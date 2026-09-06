@@ -1,0 +1,295 @@
+<title>Twintig Tafels op Dinsdag</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75,600;75,800;100,400;100,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#F1F2EC; --paper-2:#E8EAE1; --ink:#1B1F1C; --ink-2:#4A5049; --muted:#6C726B; --line:#D3D6CB;
+  --accent:#C8102E; --ok:#1F7A4D; --ok-bg:#E4F1E8; --wait:#9A6207; --wait-bg:#F6ECD6; --focus:#2B5FD9;
+  --display:'Archivo',"Helvetica Neue",Arial,sans-serif; --body:'Source Serif 4',Georgia,"Times New Roman",serif; --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#16191A; --paper-2:#1F2325; --ink:#ECEBE3; --ink-2:#C4C6BC; --muted:#9AA098; --line:#30363A;
+  --accent:#FF6272; --ok:#63C48F; --ok-bg:#1B2F25; --wait:#E3AB4D; --wait-bg:#33291A; --focus:#7FA6FF;
+} }
+:root[data-theme="dark"]{
+  --paper:#16191A; --paper-2:#1F2325; --ink:#ECEBE3; --ink-2:#C4C6BC; --muted:#9AA098; --line:#30363A;
+  --accent:#FF6272; --ok:#63C48F; --ok-bg:#1B2F25; --wait:#E3AB4D; --wait-bg:#33291A; --focus:#7FA6FF;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.wrap{max-width:56rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+header.mast{border-top:6px solid var(--accent);padding-top:1rem;margin-bottom:2rem}
+.eyebrow{font-family:var(--mono);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:.35rem 1.25rem;margin:0 0 .9rem}
+.eyebrow b{color:var(--accent);font-weight:500}
+h1{font-family:var(--display);font-variation-settings:"wdth" 75;font-weight:800;font-size:clamp(2.6rem,7vw,4.6rem);line-height:.95;letter-spacing:-.01em;margin:0 0 1rem;text-wrap:balance}
+.lede{font-size:1.1rem;max-width:38rem;margin:0;color:var(--ink-2)}
+.lede strong{color:var(--ink);font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;margin:1.25rem 0 0;font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.legend .chip{margin:0}
+.grp{margin-top:2.25rem}
+.grp h2{font-family:var(--display);font-variation-settings:"wdth" 75;font-weight:800;font-size:1.05rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0;padding:0 0 .5rem;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:.8rem}
+.grp h2 .sub{font-family:var(--body);font-weight:400;font-size:.95rem;letter-spacing:0;text-transform:none;color:var(--muted)}
+.list{list-style:none;margin:0;padding:0}
+.r{display:grid;grid-template-columns:3.2rem 1fr;gap:0 .5rem;padding:1.25rem 0;border-bottom:1px solid var(--line)}
+.num{font-family:var(--display);font-variation-settings:"wdth" 75;font-weight:800;font-size:2rem;line-height:1;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:.15rem}
+.r h3{font-family:var(--display);font-variation-settings:"wdth" 75;font-weight:800;font-size:1.65rem;line-height:1.05;margin:0 0 .35rem;letter-spacing:-.005em}
+.r h3 .tag{font-family:var(--mono);font-weight:500;font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);vertical-align:.45em;margin-left:.4rem;white-space:nowrap}
+.desc{margin:0 0 .3rem;max-width:40rem}
+.addr{font-family:var(--mono);font-size:.8rem;color:var(--muted);margin:0 0 .7rem}
+.slots{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem}
+.lbl{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-right:.2rem}
+.chip{font-family:var(--mono);font-size:.84rem;font-variant-numeric:tabular-nums;padding:.18rem .55rem;border-radius:3px;border:1px solid transparent;white-space:nowrap}
+.chip.ok{color:var(--ok);background:var(--ok-bg);border-color:color-mix(in srgb,var(--ok) 35%,transparent)}
+.chip.wait{color:var(--wait);background:var(--wait-bg);border-style:dashed;border-color:color-mix(in srgb,var(--wait) 45%,transparent)}
+.note{font-size:.92rem;color:var(--ink-2);margin:.6rem 0 0;max-width:40rem}
+.actions{margin-top:.75rem;display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center;font-family:var(--display);font-size:.95rem}
+.book{display:inline-block;background:var(--ink);color:var(--paper);text-decoration:none;padding:.45rem .85rem;border-radius:3px;font-weight:600;font-variation-settings:"wdth" 100}
+.book:hover{background:var(--accent);color:#fff}
+.site{color:var(--ink-2);font-weight:600;text-decoration-thickness:1px;text-underline-offset:3px}
+.alt{margin-top:3rem}
+.alt h2,.no h2,.how h2{font-family:var(--display);font-variation-settings:"wdth" 75;font-weight:800;font-size:1.5rem;margin:0 0 .35rem;letter-spacing:-.005em}
+.alt p,.no p,.how p{margin:0 0 1rem;color:var(--ink-2);max-width:40rem}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th{text-align:left;font-family:var(--mono);font-weight:500;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:.4rem .6rem .4rem 0;border-bottom:1px solid var(--line)}
+td{padding:.55rem .6rem .55rem 0;border-bottom:1px solid var(--line);vertical-align:top}
+td.n{font-family:var(--display);font-weight:600;font-variation-settings:"wdth" 100;white-space:nowrap}
+td.n .t{display:block;font-family:var(--mono);font-weight:400;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);white-space:normal}
+td.tm{font-family:var(--mono);font-size:.82rem;font-variant-numeric:tabular-nums;color:var(--ok)}
+td a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:3px}
+.no{margin-top:3rem}
+.no ul{list-style:none;margin:0;padding:0;columns:2;column-gap:2rem}
+.no li{break-inside:avoid;padding:.35rem 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.no li b{font-family:var(--display);font-weight:600;font-variation-settings:"wdth" 100}
+.no li span{color:var(--muted)}
+.how{margin-top:3rem;padding-top:1.25rem;border-top:6px solid var(--accent)}
+.how p{font-size:.95rem}
+@media (max-width:640px){ .r{grid-template-columns:2.2rem 1fr} .num{font-size:1.4rem} .no ul{columns:1} .r h3 .tag{display:block;margin:.25rem 0 0;vertical-align:baseline} }
+@media (prefers-reduced-motion:no-preference){ .book{transition:background .15s ease} }
+</style>
+<div class="wrap">
+<header class="mast">
+  <p class="eyebrow"><span><b>Dinsdag 8 september 2026</b></span><span>3 personen</span><span>Amsterdam</span><span>beschikbaarheid live gecheckt op zondag 6 september, tussen 18:45 en 19:30 uur</span></p>
+  <h1>Twintig tafels op dinsdag</h1>
+  <p class="lede">Twintig restaurants waar je <strong>dinsdag 8 september</strong> nog een tafel voor drie kunt boeken, gerangschikt op hoe tof ze zijn. Tijden zijn live uit de reserveringssystemen gehaald; de populairste zaken lopen snel vol, dus boek vandaag.</p>
+  <div class="legend"><span class="chip ok">18:00–20:30</span> direct online te boeken voor 3 &nbsp; <span class="chip wait">19:00</span> alleen wachtlijst</div>
+</header>
+<section class="grp"><h2>Centrum &amp; Jordaan<span class="sub">van de Nieuwendijk tot Kattenburg</span></h2><ol class="list" start="1"><li class="r">
+  <div class="num" aria-hidden="true">1</div>
+  <div class="body">
+    <h3><span class="name">Kaagman &amp; Kortekaas</span> <span class="tag">Frans-klassiek · charcuterie</span></h3>
+    <p class="desc">Klassiek-Franse keuken met eigen twist in een steegje achter de Nieuwendijk: hele beesten, eigen charcuterie en een mooie wijnkaart.</p>
+    <p class="addr">Sint Nicolaasstraat 43</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–19:00</span><span class="chip ok">19:30</span><span class="chip ok">20:00–21:00</span></div>
+    <p class="note">Aanbetaling/garantie €25 p.p. bij online reserveren.</p>
+    <div class="actions"><a class="book" href="https://bookings.zenchef.com/results?rid=387651&amp;pid=1001" target="_blank" rel="noopener">Reserveer via Zenchef</a> <a class="site" href="https://kaagmanenkortekaas.nl" target="_blank" rel="noopener">website</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">2</div>
+  <div class="body">
+    <h3><span class="name">Caffè Toscanini</span> <span class="tag">Italiaans · sinds 1985</span></h3>
+    <p class="desc">Hét Italiaanse instituut van de Jordaan: regionale gerechten, huisgemaakte pasta, altijd vol en altijd goed.</p>
+    <p class="addr">Lindengracht 75</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00</span><span class="chip ok">20:30–21:30</span><span class="chip wait" title="alleen wachtlijst">18:30–20:00</span></div>
+    <p class="note">18:00 is de enige vroege optie, daarna pas vanaf 20:30; daartussen alleen wachtlijst.</p>
+    <div class="actions"><a class="book" href="https://restauranttoscanini.nl" target="_blank" rel="noopener">Reserveer via Formitable (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">3</div>
+  <div class="body">
+    <h3><span class="name">Domenica</span> <span class="tag">Italiaans · wijnkelder</span></h3>
+    <p class="desc">Italiaans aan de Noordermarkt met open keuken en een serieuze wijnkelder; sfeervol en ruim genoeg voor drie.</p>
+    <p class="addr">Noordermarkt 7</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–21:45</span></div>
+    <p class="note">Aanbetaling €20 p.p. Kies &#x27;Restaurant&#x27; (niet Bar of Terrace).</p>
+    <div class="actions"><a class="book" href="https://www.restaurantdomenica.com" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">4</div>
+  <div class="body">
+    <h3><span class="name">Gebr. Hartering</span> <span class="tag">sharing · houtvuur</span></h3>
+    <p class="desc">Twee broers aan de Peperstraat: vaste deelmenu&#x27;s van het houtvuur, kaarslicht en een zaal vol Amsterdammers.</p>
+    <p class="addr">Peperstraat 10</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–18:45</span><span class="chip ok">19:30–21:00</span><span class="chip wait" title="alleen wachtlijst">19:00–19:15</span></div>
+    <p class="note">Aanbetaling €25 p.p. Kies begane grond of souterrain.</p>
+    <div class="actions"><a class="book" href="https://gebr-hartering.nl" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">5</div>
+  <div class="body">
+    <h3><span class="name">Wolf Atelier</span> <span class="tag">fine dining · op de brug</span></h3>
+    <p class="desc">Fine dining op een oude spoorbrug aan het Westerdok, met uitzicht over het IJ; menu&#x27;s van de chef, van &#x27;Diner&#x27; tot vijftien gangen.</p>
+    <p class="addr">Westerdoksplein 20</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:30–20:30</span><span class="chip wait" title="alleen wachtlijst">18:00</span></div>
+    <p class="note">Aanbetaling €30 p.p. Tijden per half uur; kies de service &#x27;Diner&#x27;.</p>
+    <div class="actions"><a class="book" href="https://wolfatelier.nl" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">6</div>
+  <div class="body">
+    <h3><span class="name">Scheepskameel</span> <span class="tag">Bib Gourmand · Nederlandse wijn</span></h3>
+    <p class="desc">Puur en precies koken in een loods op Kattenburg, met uitsluitend Nederlandse wijnen op de kaart.</p>
+    <p class="addr">Kattenburgerstraat 5, gebouw 24a</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–19:00</span><span class="chip ok">20:00–20:30</span><span class="chip wait" title="alleen wachtlijst">19:30</span><span class="chip wait" title="alleen wachtlijst">21:00–21:30</span></div>
+    <p class="note">Aanbetaling €35 p.p. via de widget.</p>
+    <div class="actions"><a class="book" href="https://scheepskameel.nl" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li></ol></section><section class="grp"><h2>West &amp; Oud-West<span class="sub">Kinkerbuurt, De Baarsjes, Helmersbuurt</span></h2><ol class="list" start="7"><li class="r">
+  <div class="num" aria-hidden="true">7</div>
+  <div class="body">
+    <h3><span class="name">Gitane</span> <span class="tag">Bib Gourmand · mediterraan</span></h3>
+    <p class="desc">Mediterrane, groenterijke keuken met Ottolenghi-invloeden in de Jan Pieter Heijestraat; relaxed en scherp geprijsd.</p>
+    <p class="addr">Jan Pieter Heijestraat 146</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">17:00–18:15</span><span class="chip ok">20:00–21:30</span></div>
+    <p class="note">Kies bij het boeken &#x27;Diner – Binnen&#x27; of &#x27;Bar&#x27;. Tussen 18:30 en 19:45 geen tafel voor drie.</p>
+    <div class="actions"><a class="book" href="https://bookings.zenchef.com/results?rid=387704&amp;pid=1001" target="_blank" rel="noopener">Reserveer via Zenchef</a> <a class="site" href="https://restaurantgitane.nl" target="_blank" rel="noopener">website</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">8</div>
+  <div class="body">
+    <h3><span class="name">Bar Centraal</span> <span class="tag">kleine gerechten · natuurwijn</span></h3>
+    <p class="desc">Klein, luidruchtig en lekker: wisselende kleine gerechten en natuurwijn aan de Ten Katestraat.</p>
+    <p class="addr">Ten Katestraat 16</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">17:30–20:30</span></div>
+    <p class="note">Tijden per half uur; bij sommige opties €10 aanbetaling.</p>
+    <div class="actions"><a class="book" href="https://barcentraal.nl" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">9</div>
+  <div class="body">
+    <h3><span class="name">Café Binnenvisser</span> <span class="tag">wijnbistro</span></h3>
+    <p class="desc">Wijnbistro in De Baarsjes met een keuken die veel beter is dan het café-uiterlijk doet vermoeden.</p>
+    <p class="addr">Bilderdijkstraat 36</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–21:00</span></div>
+    
+    <div class="actions"><a class="book" href="https://binnenvisser.nl" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">10</div>
+  <div class="body">
+    <h3><span class="name">nNea Pizza</span> <span class="tag">pizza · 50 Top Pizza</span></h3>
+    <p class="desc">Napolitaanse pizza van wereldklasse in West; alleen online te boeken, een kwart van de tafels blijft voor walk-ins.</p>
+    <p class="addr">Bilderdijkstraat 92</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">17:30</span><span class="chip ok">20:30–21:45</span></div>
+    <p class="note">Aanbetaling €10 p.p. Vroeg om 17:30 of pas vanaf 20:30.</p>
+    <div class="actions"><a class="book" href="https://www.nneapizza.com" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li></ol></section><section class="grp"><h2>De Pijp &amp; Zuid<span class="sub">Frans Halsbuurt, Museumkwartier, Stadionbuurt</span></h2><ol class="list" start="11"><li class="r">
+  <div class="num" aria-hidden="true">11</div>
+  <div class="body">
+    <h3><span class="name">Café Caron</span> <span class="tag">Frans · familie Caron</span></h3>
+    <p class="desc">Het Franse buurtrestaurant van de familie Caron: bistroklassiekers, veel sfeer, aan tafel of aan de bar.</p>
+    <p class="addr">Frans Halsstraat 28</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–18:45</span><span class="chip ok">19:15–21:45</span><span class="chip wait" title="alleen wachtlijst">19:00</span></div>
+    <p class="note">Aanbetaling €20 p.p. Kies &#x27;Diner Reservering Restaurant&#x27; (of Bar).</p>
+    <div class="actions"><a class="book" href="https://cafecaron.nl" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">12</div>
+  <div class="body">
+    <h3><span class="name">Arles</span> <span class="tag">Frans-Provençaals</span></h3>
+    <p class="desc">Klein, intiem Frans restaurant met Provençaalse inslag en een fijne wijnkaart, verstopt in De Pijp.</p>
+    <p class="addr">Govert Flinckstraat 251</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–21:30</span></div>
+    <p class="note">Garantie/aanbetaling €20 p.p. bij online reserveren.</p>
+    <div class="actions"><a class="book" href="https://bookings.zenchef.com/results?rid=382936&amp;pid=1001" target="_blank" rel="noopener">Reserveer via Zenchef</a> <a class="site" href="https://arles-amsterdam.nl" target="_blank" rel="noopener">website</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">13</div>
+  <div class="body">
+    <h3><span class="name">Salut</span> <span class="tag">Frans-Vlaams · 3 gangen €37,50</span></h3>
+    <p class="desc">Warm bistrootje aan het Gerard Douplein: drie gangen voor €37,50, chipirones en côte à l&#x27;os, ook laat nog.</p>
+    <p class="addr">Gerard Doustraat 98</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">17:30–21:30</span></div>
+    <p class="note">Bij het boeken een menu-optie kiezen (à la carte kan ook).</p>
+    <div class="actions"><a class="book" href="https://bookings.zenchef.com/results?rid=379445&amp;pid=1001" target="_blank" rel="noopener">Reserveer via Zenchef</a> <a class="site" href="https://salut-official.com" target="_blank" rel="noopener">website</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">14</div>
+  <div class="body">
+    <h3><span class="name">Restaurant Wils</span> <span class="tag">Michelin-ster · houtvuur</span></h3>
+    <p class="desc">Joris Bijdendijks restaurant aan het Stadionplein: alles op houtvuur en as, een ster, maar ontspannen.</p>
+    <p class="addr">Stadionplein 26</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–18:15</span><span class="chip ok">18:45</span><span class="chip ok">19:30–20:00</span><span class="chip wait" title="alleen wachtlijst">18:30</span></div>
+    <p class="note">Beperkte tijden, dus snel zijn.</p>
+    <div class="actions"><a class="book" href="https://www.restaurantwils.nl/reserveringen" target="_blank" rel="noopener">Reserveer via Guestplan (website)</a> <a class="site" href="https://www.restaurantwils.nl" target="_blank" rel="noopener">website</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">15</div>
+  <div class="body">
+    <h3><span class="name">Ottolenghi Amsterdam</span> <span class="tag">groente · Conservatorium Hotel</span></h3>
+    <p class="desc">Yotam Ottolenghi&#x27;s eerste restaurant in Nederland: groente centraal, grote smaken, fermentatie, chique zaal.</p>
+    <p class="addr">Van Baerlestraat 27</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">17:30–18:00</span><span class="chip ok">20:00</span></div>
+    <p class="note">Diner alleen om 17:30, 18:00 of 20:00.</p>
+    <div class="actions"><a class="book" href="https://www.sevenrooms.com/reservations/ottolenghimoams" target="_blank" rel="noopener">Reserveer via SevenRooms</a> <a class="site" href="https://www.mandarinoriental.com/en/amsterdam/conservatorium/dine/ottolenghi" target="_blank" rel="noopener">website</a></div>
+  </div>
+</li></ol></section><section class="grp"><h2>Oost<span class="sub">Weesperzijde, Oosterpark en Indische Buurt</span></h2><ol class="list" start="16"><li class="r">
+  <div class="num" aria-hidden="true">16</div>
+  <div class="body">
+    <h3><span class="name">Rijsel</span> <span class="tag">Bib Gourmand · rotisserie</span></h3>
+    <p class="desc">Vlaams-Franse klassiekers en de beroemde kip van het spit in een oude schoolkantine. Cultstatus, terecht.</p>
+    <p class="addr">Marcusstraat 52b</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00</span><span class="chip ok">20:00–21:00</span><span class="chip wait" title="alleen wachtlijst">18:30–19:30</span></div>
+    <p class="note">Aanbetaling €35 p.p. Om 18:00 of vanaf 20:00; 18:30–19:30 alleen wachtlijst.</p>
+    <div class="actions"><a class="book" href="https://rijsel.com" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">17</div>
+  <div class="body">
+    <h3><span class="name">Troef</span> <span class="tag">Franse bistro · Time Out top 10</span></h3>
+    <p class="desc">Nieuwe Franse bistro met creatieve klassiekers en een grote wijnkaart; Time Out zet &#x27;m bij de beste van 2026.</p>
+    <p class="addr">Schollenbrugstraat 8</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">17:30</span><span class="chip ok">18:00–18:45</span><span class="chip ok">19:15</span><span class="chip ok">19:45–21:30</span><span class="chip wait" title="alleen wachtlijst">19:00–19:30</span></div>
+    
+    <div class="actions"><a class="book" href="https://troefamsterdam.nl" target="_blank" rel="noopener">Reserveer via Formitable (website)</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">18</div>
+  <div class="body">
+    <h3><span class="name">Wilde Zwijnen</span> <span class="tag">seizoen · Javaplein</span></h3>
+    <p class="desc">Het restaurant dat de Indische Buurt op de kaart zette: dagelijks wisselend, eerlijk seizoenskoken; op dinsdag ook à la carte naast het 3-, 4- of 5-gangenmenu.</p>
+    <p class="addr">Javaplein 23a</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">18:00–19:45</span><span class="chip ok">20:15–21:30</span><span class="chip wait" title="alleen wachtlijst">20:00</span></div>
+    <p class="note">Aanbetaling €10 p.p. Boeken via wildezwijnenwinkel.nl (de oude domeinnaam is verlopen).</p>
+    <div class="actions"><a class="book" href="https://www.wildezwijnenwinkel.nl" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li></ol></section><section class="grp"><h2>Noord<span class="sub">Hamerkwartier, vijf minuten met de pont</span></h2><ol class="list" start="19"><li class="r">
+  <div class="num" aria-hidden="true">19</div>
+  <div class="body">
+    <h3><span class="name">Hotel de Goudfazant</span> <span class="tag">brasserie · loods aan het IJ</span></h3>
+    <p class="desc">Industriële loods aan het IJ, brasserie-eten met karakter: kip van het spit, côte de boeuf, grote tafels.</p>
+    <p class="addr">Aambeeldstraat 30</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">17:30–21:30</span></div>
+    
+    <div class="actions"><a class="book" href="https://bookings.zenchef.com/results?rid=367072&amp;pid=1001" target="_blank" rel="noopener">Reserveer via Zenchef</a> <a class="site" href="https://hoteldegoudfazant.nl" target="_blank" rel="noopener">website</a></div>
+  </div>
+</li><li class="r">
+  <div class="num" aria-hidden="true">20</div>
+  <div class="body">
+    <h3><span class="name">Barracuda</span> <span class="tag">vis · walk-in-vriendelijk</span></h3>
+    <p class="desc">Ontspannen visspecialist naast de Goudfazant; de helft van de zaal blijft vrij voor walk-ins en de prijzen zijn laag.</p>
+    <p class="addr">Aambeeldstraat 10</p>
+    <div class="slots"><span class="lbl">Vrij voor 3</span><span class="chip ok">17:00–17:30</span><span class="chip ok">18:30–20:30</span><span class="chip wait" title="alleen wachtlijst">18:00</span></div>
+    
+    <div class="actions"><a class="book" href="https://www.barracuda.amsterdam" target="_blank" rel="noopener">Reserveer via Tebi (website)</a></div>
+  </div>
+</li></ol></section>
+<section class="alt">
+  <h2>Ook nog plek</h2>
+  <p>Iets minder hip of net buiten de top twintig, maar dinsdag wél gewoon te boeken voor drie.</p>
+  <div class="tbl"><table><thead><tr><th>Restaurant</th><th>Buurt</th><th>Vrij (diner)</th><th>Boeken via</th></tr></thead><tbody><tr><td class="n">Gertrude<span class="t">Frans-NL bistro</span></td><td>Oud-West</td><td class="tm">17:30–20:30</td><td><a href="https://www.gertrudeamsterdam.nl" target="_blank" rel="noopener">website (Formitable)</a></td></tr><tr><td class="n">Veneur<span class="t">Frans · wild</span></td><td>Weteringschans</td><td class="tm">17:30–18:15 · 20:30–21:30</td><td><a href="https://bookings.zenchef.com/results?rid=375277&amp;pid=1001" target="_blank" rel="noopener">Zenchef</a></td></tr><tr><td class="n">KAIA<span class="t">modern Grieks</span></td><td>Europaplein</td><td class="tm">17:00–21:30</td><td><a href="https://bookings.zenchef.com/results?rid=373164&amp;pid=1001" target="_blank" rel="noopener">Zenchef</a></td></tr><tr><td class="n">Juno<span class="t">wijn · vinyl</span></td><td>De Pijp</td><td class="tm">17:30–21:30</td><td><a href="https://junorestaurant.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">Kiseki<span class="t">Japans · kushiage</span></td><td>Oud-West</td><td class="tm">17:00–20:00</td><td><a href="https://kisekiamsterdam.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">Amice<span class="t">Frans · van Wolf Atelier</span></td><td>Noorderstraat</td><td class="tm">18:00–21:00</td><td><a href="https://www.amiceamsterdam.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">Bussia<span class="t">Italiaans</span></td><td>Reestraat</td><td class="tm">17:30–18:45 · 19:15–21:15</td><td><a href="https://bussia.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">De Poldervogel<span class="t">comfortfood · oesters</span></td><td>Watergraafsmeer</td><td class="tm">17:00–18:15 · 18:45–21:00</td><td><a href="https://www.restaurantdepoldervogel.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">Roef<span class="t">seizoen · lokaal</span></td><td>Middenweg</td><td class="tm">17:30–21:00</td><td><a href="https://roef-amsterdam.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">Graham&#x27;s Kitchen<span class="t">chef&#x27;s menu</span></td><td>De Pijp</td><td class="tm">18:00–18:30 · 19:30–21:30</td><td><a href="https://www.grahamskitchen.amsterdam" target="_blank" rel="noopener">website (Guestplan)</a></td></tr><tr><td class="n">Yuzu Dining Bar<span class="t">yakitori</span></td><td>Kerkstraat</td><td class="tm">18:00–21:00</td><td><a href="https://www.yuzu-diningbar.nl" target="_blank" rel="noopener">website (Guestplan)</a></td></tr><tr><td class="n">MOS<span class="t">fine dining aan het IJ</span></td><td>IJdok</td><td class="tm">18:00–19:30</td><td><a href="https://mosamsterdam.nl" target="_blank" rel="noopener">website (Formitable)</a></td></tr><tr><td class="n">BO by Bougainville<span class="t">sterrenchef, à la carte</span></td><td>Dam</td><td class="tm">18:30–19:15 · 19:45 · 20:15</td><td><a href="https://bookings.zenchef.com/results?rid=375527&amp;pid=1001" target="_blank" rel="noopener">Zenchef (€50 p.p. garantie)</a></td></tr><tr><td class="n">Nela<span class="t">vuur · Zuidas</span></td><td>Zuidas</td><td class="tm">18:00–22:30</td><td><a href="https://www.sevenrooms.com/reservations/nelarestaurantamsterdam" target="_blank" rel="noopener">SevenRooms</a></td></tr><tr><td class="n">Jansz<span class="t">Pulitzer hotel</span></td><td>Reestraat</td><td class="tm">17:00–18:45 · 20:00–21:30</td><td><a href="https://www.sevenrooms.com/reservations/jansz" target="_blank" rel="noopener">SevenRooms</a></td></tr><tr><td class="n">The Duchess<span class="t">Italiaans · W hotel</span></td><td>Spuistraat</td><td class="tm">17:00–18:45 · 20:15–22:00</td><td><a href="https://www.sevenrooms.com/reservations/theduchessamsterdam" target="_blank" rel="noopener">SevenRooms</a></td></tr><tr><td class="n">MOMO<span class="t">Aziatisch · cocktails</span></td><td>Hobbemastraat</td><td class="tm">17:00–20:45 · 21:15–21:45</td><td><a href="https://www.sevenrooms.com/reservations/momoamsterdam" target="_blank" rel="noopener">SevenRooms</a></td></tr><tr><td class="n">Mama Makan<span class="t">Indonesisch</span></td><td>Plantage</td><td class="tm">17:30–21:00</td><td><a href="https://bookings.zenchef.com/results?rid=371547&amp;pid=1001" target="_blank" rel="noopener">Zenchef</a></td></tr><tr><td class="n">Ron Gastrobar<span class="t">gastrobar</span></td><td>Sophialaan</td><td class="tm">17:30–18:45 · 19:15–21:15</td><td><a href="https://bookings.zenchef.com/results?rid=374966&amp;pid=1001" target="_blank" rel="noopener">Zenchef</a></td></tr><tr><td class="n">De Japanner Zuid<span class="t">izakaya</span></td><td>Gershwinplein</td><td class="tm">17:00–22:00</td><td><a href="https://bookings.zenchef.com/results?rid=385194&amp;pid=1001" target="_blank" rel="noopener">Zenchef</a></td></tr><tr><td class="n">Bistro Berlage<span class="t">bistro · Beurs</span></td><td>Beursplein</td><td class="tm">17:00–20:00</td><td><a href="https://bookings.zenchef.com/results?rid=376841&amp;pid=1001" target="_blank" rel="noopener">Zenchef</a></td></tr><tr><td class="n">Pastis<span class="t">Frans · buurt</span></td><td>Oud-West</td><td class="tm">17:00–21:30</td><td><a href="https://www.pastisamsterdam.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">Tête<span class="t">aan het water</span></td><td>Zeeburgerpad</td><td class="tm">17:00–22:00</td><td><a href="https://www.tete-amsterdam.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">Chez Chloé<span class="t">Frans</span></td><td>Overtoom</td><td class="tm">17:00–21:45</td><td><a href="https://chez-chloe.nl" target="_blank" rel="noopener">website (Guestplan)</a></td></tr><tr><td class="n">BAUT Oost<span class="t">opvolger Restaurant C</span></td><td>Wibautstraat</td><td class="tm">17:00–18:45 · 19:15–20:30</td><td><a href="https://baut.amsterdam/locatie/oost" target="_blank" rel="noopener">website (Guestplan)</a></td></tr><tr><td class="n">Indrapura<span class="t">Indonesisch</span></td><td>Rembrandtplein</td><td class="tm">17:00–22:15</td><td><a href="https://bookings.zenchef.com/results?rid=379331&amp;pid=1001" target="_blank" rel="noopener">Zenchef (€15 p.p. garantie)</a></td></tr><tr><td class="n">Café-Restaurant Amsterdam<span class="t">brasserie · Westerpark</span></td><td>Watertorenplein</td><td class="tm">17:00–18:15 · 18:45 · 19:15–21:00</td><td><a href="https://cradam.nl" target="_blank" rel="noopener">website (Tebi)</a></td></tr><tr><td class="n">Mr. Porter<span class="t">steak</span></td><td>Spuistraat</td><td class="tm">17:00–22:15</td><td><a href="https://www.sevenrooms.com/reservations/mrporteramsterdam" target="_blank" rel="noopener">SevenRooms</a></td></tr><tr><td class="n">Izakaya<span class="t">Japans · Sir Albert</span></td><td>De Pijp</td><td class="tm">17:00–22:30</td><td><a href="https://www.sevenrooms.com/reservations/izakayaamsterdam" target="_blank" rel="noopener">SevenRooms</a></td></tr><tr><td class="n">Auberge Jean &amp; Marie<span class="t">Frans · Albert Cuyp</span></td><td>De Pijp</td><td class="tm">17:30–22:30</td><td><a href="https://www.aubergeamsterdam.nl" target="_blank" rel="noopener">website (Guestplan)</a></td></tr><tr><td class="n">Restaurant Blauw<span class="t">Indonesisch · rijsttafel</span></td><td>Amstelveenseweg</td><td class="tm">17:00–18:00 · 20:00–21:00</td><td><a href="https://restaurantblauw.nl" target="_blank" rel="noopener">website (Guestplan)</a></td></tr><tr><td class="n">Pllek<span class="t">NDSM · aan het IJ</span></td><td>Noord</td><td class="tm">17:15–21:45</td><td><a href="https://bookings.zenchef.com/results?rid=374048&amp;pid=1001" target="_blank" rel="noopener">Zenchef</a></td></tr></tbody></table></div>
+</section>
+<section class="no">
+  <h2>Niet gelukt op dinsdag</h2>
+  <p>Ook gecheckt, maar vol, alleen wachtlijst, of op dinsdag dicht. Scheelt zoeken.</p>
+  <ul><li><b>Café de Klepel</b> <span>alleen wachtlijst (17:30–20:30)</span></li><li><b>Choux</b> <span>alleen wachtlijst</span></li><li><b>RIJKS</b> <span>alleen wachtlijst</span></li><li><b>212</b> <span>alleen wachtlijst</span></li><li><b>Restaurant Europa</b> <span>alleen wachtlijst</span></li><li><b>Kamer (Room Bar)</b> <span>alleen wachtlijst</span></li><li><b>BAK</b> <span>dinsdag geen plek; eerstvolgende woensdag 18:30</span></li><li><b>Lastage</b> <span>geen tafel voor 3</span></li><li><b>4850</b> <span>geen tafel voor 3</span></li><li><b>Café Parlotte</b> <span>geen tafel voor 3</span></li><li><b>Petit Caron</b> <span>geen tafel voor 3</span></li><li><b>Bistrot Neuf</b> <span>geen tafel voor 3</span></li><li><b>Meatless District</b> <span>geen tafel voor 3</span></li><li><b>Hangar</b> <span>dinsdag dicht</span></li><li><b>Café Modern</b> <span>dinsdag dicht</span></li><li><b>Flore</b> <span>dinsdag dicht</span></li><li><b>House of Noa</b> <span>dinsdag dicht</span></li><li><b>Weinlokal Stern</b> <span>dinsdag rustdag</span></li><li><b>Marocaine</b> <span>dinsdag dicht</span></li><li><b>Coba Taqueria</b> <span>alleen do–zo open</span></li><li><b>Bacalar</b> <span>dinsdag dicht</span></li><li><b>Rondo</b> <span>dinsdag dicht</span></li><li><b>Dame aan de Kade</b> <span>ma en di dicht</span></li><li><b>Lên Đên</b> <span>alleen vr en za diner</span></li><li><b>Sinne</b> <span>dinsdag dicht</span></li><li><b>Tacite</b> <span>dinsdag dicht</span></li><li><b>Le Hollandais</b> <span>dinsdag dicht</span></li><li><b>Bistro de Fles</b> <span>dinsdag dicht</span></li><li><b>Guts &amp; Glory</b> <span>definitief gesloten</span></li><li><b>Bar Alt</b> <span>definitief gesloten</span></li><li><b>Chez Nina</b> <span>nu Noof; dinsdag geen plek</span></li><li><b>Zoldering</b> <span>uitverkocht voor 3 (walk-in rond 21:00 kan lukken)</span></li><li><b>Daalder</b> <span>dinsdag dicht (boekt via TheFork)</span></li><li><b>Balthazar&#x27;s Keuken</b> <span>dinsdag dicht</span></li><li><b>Bar Parry</b> <span>alleen walk-in, vanaf 17:00</span></li><li><b>Breda</b> <span>niet te checken (alleen OpenTable/Resy); bel 020 622 5233</span></li><li><b>Bar Fisk</b> <span>waarschijnlijk gesloten</span></li><li><b>Bistro Féline</b> <span>gesloten; nu Daalder</span></li><li><b>Marits Eetkamer</b> <span>definitief gesloten</span></li><li><b>Floreyn</b> <span>definitief gesloten</span></li><li><b>Rotisserie Amsterdam</b> <span>definitief gesloten</span></li></ul>
+</section>
+<section class="how">
+  <h2>Hoe dit is gecheckt</h2>
+  <p>Op zondagavond 6 september zijn de reserveringssystemen van ruim 140 Amsterdamse restaurants rechtstreeks bevraagd (Zenchef, Tebi, Formitable, Guestplan en SevenRooms) op een tafel voor 3 personen op dinsdag 8 september. De tijden gelden op het moment van checken. Zaken die alleen via TheFork, OpenTable of Resy boeken (onder meer Daalder, Breda en Satkara) konden niet gecheckt worden; bel die desnoods even.</p>
+</section>
+</div>
+

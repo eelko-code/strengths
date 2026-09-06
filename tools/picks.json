@@ -1,0 +1,1432 @@
+{
+ "checked": "zondag 6 september, tussen 18:45 en 19:30 uur",
+ "lede": "Twintig restaurants waar je <strong>dinsdag 8 september</strong> nog een tafel voor drie kunt boeken, gerangschikt op hoe tof ze zijn. Tijden zijn live uit de reserveringssystemen gehaald; de populairste zaken lopen snel vol, dus boek vandaag.",
+ "how": "Op zondagavond 6 september zijn de reserveringssystemen van ruim 140 Amsterdamse restaurants rechtstreeks bevraagd (Zenchef, Tebi, Formitable, Guestplan en SevenRooms) op een tafel voor 3 personen op dinsdag 8 september. De tijden gelden op het moment van checken. Zaken die alleen via TheFork, OpenTable of Resy boeken (onder meer Daalder, Breda en Satkara) konden niet gecheckt worden; bel die desnoods even.",
+ "groups": [
+  {
+   "name": "Centrum & Jordaan",
+   "sub": "van de Nieuwendijk tot Kattenburg",
+   "items": [
+    {
+     "name": "Kaagman & Kortekaas",
+     "tag": "Frans-klassiek · charcuterie",
+     "desc": "Klassiek-Franse keuken met eigen twist in een steegje achter de Nieuwendijk: hele beesten, eigen charcuterie en een mooie wijnkaart.",
+     "addr": "Sint Nicolaasstraat 43",
+     "slots": [
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00"
+     ],
+     "waitlist": [],
+     "note": "Aanbetaling/garantie €25 p.p. bij online reserveren.",
+     "via": "Zenchef",
+     "book": "https://bookings.zenchef.com/results?rid=387651&pid=1001",
+     "site": "https://kaagmanenkortekaas.nl"
+    },
+    {
+     "name": "Caffè Toscanini",
+     "tag": "Italiaans · sinds 1985",
+     "desc": "Hét Italiaanse instituut van de Jordaan: regionale gerechten, huisgemaakte pasta, altijd vol en altijd goed.",
+     "addr": "Lindengracht 75",
+     "slots": [
+      "18:00",
+      "20:30",
+      "21:00",
+      "21:30"
+     ],
+     "waitlist": [
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00"
+     ],
+     "note": "18:00 is de enige vroege optie, daarna pas vanaf 20:30; daartussen alleen wachtlijst.",
+     "via": "Formitable (website)",
+     "book": "https://restauranttoscanini.nl",
+     "site": "https://restauranttoscanini.nl"
+    },
+    {
+     "name": "Domenica",
+     "tag": "Italiaans · wijnkelder",
+     "desc": "Italiaans aan de Noordermarkt met open keuken en een serieuze wijnkelder; sfeervol en ruim genoeg voor drie.",
+     "addr": "Noordermarkt 7",
+     "slots": [
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:00",
+      "19:15",
+      "19:30",
+      "19:45",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00",
+      "21:15",
+      "21:30",
+      "21:45"
+     ],
+     "waitlist": [],
+     "note": "Aanbetaling €20 p.p. Kies 'Restaurant' (niet Bar of Terrace).",
+     "via": "Tebi (website)",
+     "book": "https://www.restaurantdomenica.com",
+     "site": "https://www.restaurantdomenica.com"
+    },
+    {
+     "name": "Gebr. Hartering",
+     "tag": "sharing · houtvuur",
+     "desc": "Twee broers aan de Peperstraat: vaste deelmenu's van het houtvuur, kaarslicht en een zaal vol Amsterdammers.",
+     "addr": "Peperstraat 10",
+     "slots": [
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:30",
+      "19:45",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00"
+     ],
+     "waitlist": [
+      "19:00",
+      "19:15"
+     ],
+     "note": "Aanbetaling €25 p.p. Kies begane grond of souterrain.",
+     "via": "Tebi (website)",
+     "book": "https://gebr-hartering.nl",
+     "site": "https://gebr-hartering.nl"
+    },
+    {
+     "name": "Wolf Atelier",
+     "tag": "fine dining · op de brug",
+     "desc": "Fine dining op een oude spoorbrug aan het Westerdok, met uitzicht over het IJ; menu's van de chef, van 'Diner' tot vijftien gangen.",
+     "addr": "Westerdoksplein 20",
+     "slots": [
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30"
+     ],
+     "waitlist": [
+      "18:00"
+     ],
+     "note": "Aanbetaling €30 p.p. Tijden per half uur; kies de service 'Diner'.",
+     "via": "Tebi (website)",
+     "book": "https://wolfatelier.nl",
+     "site": "https://wolfatelier.nl"
+    },
+    {
+     "name": "Scheepskameel",
+     "tag": "Bib Gourmand · Nederlandse wijn",
+     "desc": "Puur en precies koken in een loods op Kattenburg, met uitsluitend Nederlandse wijnen op de kaart.",
+     "addr": "Kattenburgerstraat 5, gebouw 24a",
+     "slots": [
+      "18:00",
+      "18:30",
+      "19:00",
+      "20:00",
+      "20:30"
+     ],
+     "waitlist": [
+      "19:30",
+      "21:00",
+      "21:30"
+     ],
+     "note": "Aanbetaling €35 p.p. via de widget.",
+     "via": "Tebi (website)",
+     "book": "https://scheepskameel.nl",
+     "site": "https://scheepskameel.nl"
+    }
+   ]
+  },
+  {
+   "name": "West & Oud-West",
+   "sub": "Kinkerbuurt, De Baarsjes, Helmersbuurt",
+   "items": [
+    {
+     "name": "Gitane",
+     "tag": "Bib Gourmand · mediterraan",
+     "desc": "Mediterrane, groenterijke keuken met Ottolenghi-invloeden in de Jan Pieter Heijestraat; relaxed en scherp geprijsd.",
+     "addr": "Jan Pieter Heijestraat 146",
+     "slots": [
+      "17:00",
+      "17:15",
+      "17:30",
+      "17:45",
+      "18:00",
+      "18:15",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00",
+      "21:15",
+      "21:30"
+     ],
+     "waitlist": [],
+     "note": "Kies bij het boeken 'Diner – Binnen' of 'Bar'. Tussen 18:30 en 19:45 geen tafel voor drie.",
+     "via": "Zenchef",
+     "book": "https://bookings.zenchef.com/results?rid=387704&pid=1001",
+     "site": "https://restaurantgitane.nl"
+    },
+    {
+     "name": "Bar Centraal",
+     "tag": "kleine gerechten · natuurwijn",
+     "desc": "Klein, luidruchtig en lekker: wisselende kleine gerechten en natuurwijn aan de Ten Katestraat.",
+     "addr": "Ten Katestraat 16",
+     "slots": [
+      "17:30",
+      "18:00",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30"
+     ],
+     "waitlist": [],
+     "note": "Tijden per half uur; bij sommige opties €10 aanbetaling.",
+     "via": "Tebi (website)",
+     "book": "https://barcentraal.nl",
+     "site": "https://barcentraal.nl"
+    },
+    {
+     "name": "Café Binnenvisser",
+     "tag": "wijnbistro",
+     "desc": "Wijnbistro in De Baarsjes met een keuken die veel beter is dan het café-uiterlijk doet vermoeden.",
+     "addr": "Bilderdijkstraat 36",
+     "slots": [
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:00",
+      "19:15",
+      "19:30",
+      "19:45",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00"
+     ],
+     "waitlist": [],
+     "note": "",
+     "via": "Tebi (website)",
+     "book": "https://binnenvisser.nl",
+     "site": "https://binnenvisser.nl"
+    },
+    {
+     "name": "nNea Pizza",
+     "tag": "pizza · 50 Top Pizza",
+     "desc": "Napolitaanse pizza van wereldklasse in West; alleen online te boeken, een kwart van de tafels blijft voor walk-ins.",
+     "addr": "Bilderdijkstraat 92",
+     "slots": [
+      "17:30",
+      "20:30",
+      "20:45",
+      "21:00",
+      "21:15",
+      "21:30",
+      "21:45"
+     ],
+     "waitlist": [],
+     "note": "Aanbetaling €10 p.p. Vroeg om 17:30 of pas vanaf 20:30.",
+     "via": "Tebi (website)",
+     "book": "https://www.nneapizza.com",
+     "site": "https://www.nneapizza.com"
+    }
+   ]
+  },
+  {
+   "name": "De Pijp & Zuid",
+   "sub": "Frans Halsbuurt, Museumkwartier, Stadionbuurt",
+   "items": [
+    {
+     "name": "Café Caron",
+     "tag": "Frans · familie Caron",
+     "desc": "Het Franse buurtrestaurant van de familie Caron: bistroklassiekers, veel sfeer, aan tafel of aan de bar.",
+     "addr": "Frans Halsstraat 28",
+     "slots": [
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:15",
+      "19:30",
+      "19:45",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00",
+      "21:15",
+      "21:30",
+      "21:45"
+     ],
+     "waitlist": [
+      "19:00"
+     ],
+     "note": "Aanbetaling €20 p.p. Kies 'Diner Reservering Restaurant' (of Bar).",
+     "via": "Tebi (website)",
+     "book": "https://cafecaron.nl",
+     "site": "https://cafecaron.nl"
+    },
+    {
+     "name": "Arles",
+     "tag": "Frans-Provençaals",
+     "desc": "Klein, intiem Frans restaurant met Provençaalse inslag en een fijne wijnkaart, verstopt in De Pijp.",
+     "addr": "Govert Flinckstraat 251",
+     "slots": [
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:00",
+      "19:15",
+      "19:30",
+      "19:45",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00",
+      "21:15",
+      "21:30"
+     ],
+     "waitlist": [],
+     "note": "Garantie/aanbetaling €20 p.p. bij online reserveren.",
+     "via": "Zenchef",
+     "book": "https://bookings.zenchef.com/results?rid=382936&pid=1001",
+     "site": "https://arles-amsterdam.nl"
+    },
+    {
+     "name": "Salut",
+     "tag": "Frans-Vlaams · 3 gangen €37,50",
+     "desc": "Warm bistrootje aan het Gerard Douplein: drie gangen voor €37,50, chipirones en côte à l'os, ook laat nog.",
+     "addr": "Gerard Doustraat 98",
+     "slots": [
+      "17:30",
+      "17:45",
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:00",
+      "19:15",
+      "19:30",
+      "19:45",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00",
+      "21:15",
+      "21:30"
+     ],
+     "waitlist": [],
+     "note": "Bij het boeken een menu-optie kiezen (à la carte kan ook).",
+     "via": "Zenchef",
+     "book": "https://bookings.zenchef.com/results?rid=379445&pid=1001",
+     "site": "https://salut-official.com"
+    },
+    {
+     "name": "Restaurant Wils",
+     "tag": "Michelin-ster · houtvuur",
+     "desc": "Joris Bijdendijks restaurant aan het Stadionplein: alles op houtvuur en as, een ster, maar ontspannen.",
+     "addr": "Stadionplein 26",
+     "slots": [
+      "18:00",
+      "18:15",
+      "18:45",
+      "19:30",
+      "19:45",
+      "20:00"
+     ],
+     "waitlist": [
+      "18:30"
+     ],
+     "note": "Beperkte tijden, dus snel zijn.",
+     "via": "Guestplan (website)",
+     "book": "https://www.restaurantwils.nl/reserveringen",
+     "site": "https://www.restaurantwils.nl"
+    },
+    {
+     "name": "Ottolenghi Amsterdam",
+     "tag": "groente · Conservatorium Hotel",
+     "desc": "Yotam Ottolenghi's eerste restaurant in Nederland: groente centraal, grote smaken, fermentatie, chique zaal.",
+     "addr": "Van Baerlestraat 27",
+     "slots": [
+      "17:30",
+      "18:00",
+      "20:00"
+     ],
+     "waitlist": [],
+     "note": "Diner alleen om 17:30, 18:00 of 20:00.",
+     "via": "SevenRooms",
+     "book": "https://www.sevenrooms.com/reservations/ottolenghimoams",
+     "site": "https://www.mandarinoriental.com/en/amsterdam/conservatorium/dine/ottolenghi"
+    }
+   ]
+  },
+  {
+   "name": "Oost",
+   "sub": "Weesperzijde, Oosterpark en Indische Buurt",
+   "items": [
+    {
+     "name": "Rijsel",
+     "tag": "Bib Gourmand · rotisserie",
+     "desc": "Vlaams-Franse klassiekers en de beroemde kip van het spit in een oude schoolkantine. Cultstatus, terecht.",
+     "addr": "Marcusstraat 52b",
+     "slots": [
+      "18:00",
+      "20:00",
+      "20:30",
+      "21:00"
+     ],
+     "waitlist": [
+      "18:30",
+      "19:00",
+      "19:30"
+     ],
+     "note": "Aanbetaling €35 p.p. Om 18:00 of vanaf 20:00; 18:30–19:30 alleen wachtlijst.",
+     "via": "Tebi (website)",
+     "book": "https://rijsel.com",
+     "site": "https://rijsel.com"
+    },
+    {
+     "name": "Troef",
+     "tag": "Franse bistro · Time Out top 10",
+     "desc": "Nieuwe Franse bistro met creatieve klassiekers en een grote wijnkaart; Time Out zet 'm bij de beste van 2026.",
+     "addr": "Schollenbrugstraat 8",
+     "slots": [
+      "17:30",
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:15",
+      "19:45",
+      "20:00",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00",
+      "21:15",
+      "21:30"
+     ],
+     "waitlist": [
+      "19:00",
+      "19:30"
+     ],
+     "note": "",
+     "via": "Formitable (website)",
+     "book": "https://troefamsterdam.nl",
+     "site": "https://troefamsterdam.nl"
+    },
+    {
+     "name": "Wilde Zwijnen",
+     "tag": "seizoen · Javaplein",
+     "desc": "Het restaurant dat de Indische Buurt op de kaart zette: dagelijks wisselend, eerlijk seizoenskoken; op dinsdag ook à la carte naast het 3-, 4- of 5-gangenmenu.",
+     "addr": "Javaplein 23a",
+     "slots": [
+      "18:00",
+      "18:15",
+      "18:30",
+      "18:45",
+      "19:00",
+      "19:15",
+      "19:30",
+      "19:45",
+      "20:15",
+      "20:30",
+      "20:45",
+      "21:00",
+      "21:15",
+      "21:30"
+     ],
+     "waitlist": [
+      "20:00"
+     ],
+     "note": "Aanbetaling €10 p.p. Boeken via wildezwijnenwinkel.nl (de oude domeinnaam is verlopen).",
+     "via": "Tebi (website)",
+     "book": "https://www.wildezwijnenwinkel.nl",
+     "site": "https://www.wildezwijnenwinkel.nl"
+    }
+   ]
+  },
+  {
+   "name": "Noord",
+   "sub": "Hamerkwartier, vijf minuten met de pont",
+   "items": [
+    {
+     "name": "Hotel de Goudfazant",
+     "tag": "brasserie · loods aan het IJ",
+     "desc": "Industriële loods aan het IJ, brasserie-eten met karakter: kip van het spit, côte de boeuf, grote tafels.",
+     "addr": "Aambeeldstraat 30",
+     "slots": [
+      "17:30",
+      "18:00",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30",
+      "21:00",
+      "21:30"
+     ],
+     "waitlist": [],
+     "note": "",
+     "via": "Zenchef",
+     "book": "https://bookings.zenchef.com/results?rid=367072&pid=1001",
+     "site": "https://hoteldegoudfazant.nl"
+    },
+    {
+     "name": "Barracuda",
+     "tag": "vis · walk-in-vriendelijk",
+     "desc": "Ontspannen visspecialist naast de Goudfazant; de helft van de zaal blijft vrij voor walk-ins en de prijzen zijn laag.",
+     "addr": "Aambeeldstraat 10",
+     "slots": [
+      "17:00",
+      "17:30",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30"
+     ],
+     "waitlist": [
+      "18:00"
+     ],
+     "note": "",
+     "via": "Tebi (website)",
+     "book": "https://www.barracuda.amsterdam",
+     "site": "https://www.barracuda.amsterdam"
+    }
+   ]
+  }
+ ],
+ "alternates": [
+  {
+   "name": "Gertrude",
+   "tag": "Frans-NL bistro",
+   "hood": "Oud-West",
+   "slots": [
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30"
+   ],
+   "via": "website (Formitable)",
+   "book": "https://www.gertrudeamsterdam.nl"
+  },
+  {
+   "name": "Veneur",
+   "tag": "Frans · wild",
+   "hood": "Weteringschans",
+   "slots": [
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30"
+   ],
+   "via": "Zenchef",
+   "book": "https://bookings.zenchef.com/results?rid=375277&pid=1001"
+  },
+  {
+   "name": "KAIA",
+   "tag": "modern Grieks",
+   "hood": "Europaplein",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30"
+   ],
+   "via": "Zenchef",
+   "book": "https://bookings.zenchef.com/results?rid=373164&pid=1001"
+  },
+  {
+   "name": "Juno",
+   "tag": "wijn · vinyl",
+   "hood": "De Pijp",
+   "slots": [
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://junorestaurant.nl"
+  },
+  {
+   "name": "Kiseki",
+   "tag": "Japans · kushiage",
+   "hood": "Oud-West",
+   "slots": [
+    "17:00",
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:30",
+    "20:00"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://kisekiamsterdam.nl"
+  },
+  {
+   "name": "Amice",
+   "tag": "Frans · van Wolf Atelier",
+   "hood": "Noorderstraat",
+   "slots": [
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:30",
+    "20:00",
+    "20:30",
+    "21:00"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://www.amiceamsterdam.nl"
+  },
+  {
+   "name": "Bussia",
+   "tag": "Italiaans",
+   "hood": "Reestraat",
+   "slots": [
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://bussia.nl"
+  },
+  {
+   "name": "De Poldervogel",
+   "tag": "comfortfood · oesters",
+   "hood": "Watergraafsmeer",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://www.restaurantdepoldervogel.nl"
+  },
+  {
+   "name": "Roef",
+   "tag": "seizoen · lokaal",
+   "hood": "Middenweg",
+   "slots": [
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:30",
+    "20:00",
+    "20:30",
+    "21:00"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://roef-amsterdam.nl"
+  },
+  {
+   "name": "Graham's Kitchen",
+   "tag": "chef's menu",
+   "hood": "De Pijp",
+   "slots": [
+    "18:00",
+    "18:30",
+    "19:30",
+    "20:00",
+    "20:30",
+    "21:00",
+    "21:30"
+   ],
+   "via": "website (Guestplan)",
+   "book": "https://www.grahamskitchen.amsterdam"
+  },
+  {
+   "name": "Yuzu Dining Bar",
+   "tag": "yakitori",
+   "hood": "Kerkstraat",
+   "slots": [
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00"
+   ],
+   "via": "website (Guestplan)",
+   "book": "https://www.yuzu-diningbar.nl"
+  },
+  {
+   "name": "MOS",
+   "tag": "fine dining aan het IJ",
+   "hood": "IJdok",
+   "slots": [
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30"
+   ],
+   "via": "website (Formitable)",
+   "book": "https://mosamsterdam.nl"
+  },
+  {
+   "name": "BO by Bougainville",
+   "tag": "sterrenchef, à la carte",
+   "hood": "Dam",
+   "slots": [
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:45",
+    "20:15"
+   ],
+   "via": "Zenchef (€50 p.p. garantie)",
+   "book": "https://bookings.zenchef.com/results?rid=375527&pid=1001"
+  },
+  {
+   "name": "Nela",
+   "tag": "vuur · Zuidas",
+   "hood": "Zuidas",
+   "slots": [
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:30",
+    "20:00",
+    "20:30",
+    "21:00",
+    "21:30",
+    "22:00",
+    "22:30"
+   ],
+   "via": "SevenRooms",
+   "book": "https://www.sevenrooms.com/reservations/nelarestaurantamsterdam"
+  },
+  {
+   "name": "Jansz",
+   "tag": "Pulitzer hotel",
+   "hood": "Reestraat",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30"
+   ],
+   "via": "SevenRooms",
+   "book": "https://www.sevenrooms.com/reservations/jansz"
+  },
+  {
+   "name": "The Duchess",
+   "tag": "Italiaans · W hotel",
+   "hood": "Spuistraat",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45",
+    "22:00"
+   ],
+   "via": "SevenRooms",
+   "book": "https://www.sevenrooms.com/reservations/theduchessamsterdam"
+  },
+  {
+   "name": "MOMO",
+   "tag": "Aziatisch · cocktails",
+   "hood": "Hobbemastraat",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:15",
+    "21:30",
+    "21:45"
+   ],
+   "via": "SevenRooms",
+   "book": "https://www.sevenrooms.com/reservations/momoamsterdam"
+  },
+  {
+   "name": "Mama Makan",
+   "tag": "Indonesisch",
+   "hood": "Plantage",
+   "slots": [
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00"
+   ],
+   "via": "Zenchef",
+   "book": "https://bookings.zenchef.com/results?rid=371547&pid=1001"
+  },
+  {
+   "name": "Ron Gastrobar",
+   "tag": "gastrobar",
+   "hood": "Sophialaan",
+   "slots": [
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15"
+   ],
+   "via": "Zenchef",
+   "book": "https://bookings.zenchef.com/results?rid=374966&pid=1001"
+  },
+  {
+   "name": "De Japanner Zuid",
+   "tag": "izakaya",
+   "hood": "Gershwinplein",
+   "slots": [
+    "17:00",
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:30",
+    "20:00",
+    "20:30",
+    "21:00",
+    "21:30",
+    "22:00"
+   ],
+   "via": "Zenchef",
+   "book": "https://bookings.zenchef.com/results?rid=385194&pid=1001"
+  },
+  {
+   "name": "Bistro Berlage",
+   "tag": "bistro · Beurs",
+   "hood": "Beursplein",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00"
+   ],
+   "via": "Zenchef",
+   "book": "https://bookings.zenchef.com/results?rid=376841&pid=1001"
+  },
+  {
+   "name": "Pastis",
+   "tag": "Frans · buurt",
+   "hood": "Oud-West",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://www.pastisamsterdam.nl"
+  },
+  {
+   "name": "Tête",
+   "tag": "aan het water",
+   "hood": "Zeeburgerpad",
+   "slots": [
+    "17:00",
+    "17:30",
+    "18:00",
+    "18:30",
+    "19:00",
+    "19:30",
+    "20:00",
+    "20:30",
+    "21:00",
+    "21:30",
+    "22:00"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://www.tete-amsterdam.nl"
+  },
+  {
+   "name": "Chez Chloé",
+   "tag": "Frans",
+   "hood": "Overtoom",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45"
+   ],
+   "via": "website (Guestplan)",
+   "book": "https://chez-chloe.nl"
+  },
+  {
+   "name": "BAUT Oost",
+   "tag": "opvolger Restaurant C",
+   "hood": "Wibautstraat",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30"
+   ],
+   "via": "website (Guestplan)",
+   "book": "https://baut.amsterdam/locatie/oost"
+  },
+  {
+   "name": "Indrapura",
+   "tag": "Indonesisch",
+   "hood": "Rembrandtplein",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45",
+    "22:00",
+    "22:15"
+   ],
+   "via": "Zenchef (€15 p.p. garantie)",
+   "book": "https://bookings.zenchef.com/results?rid=379331&pid=1001"
+  },
+  {
+   "name": "Café-Restaurant Amsterdam",
+   "tag": "brasserie · Westerpark",
+   "hood": "Watertorenplein",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:45",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00"
+   ],
+   "via": "website (Tebi)",
+   "book": "https://cradam.nl"
+  },
+  {
+   "name": "Mr. Porter",
+   "tag": "steak",
+   "hood": "Spuistraat",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45",
+    "22:00",
+    "22:15"
+   ],
+   "via": "SevenRooms",
+   "book": "https://www.sevenrooms.com/reservations/mrporteramsterdam"
+  },
+  {
+   "name": "Izakaya",
+   "tag": "Japans · Sir Albert",
+   "hood": "De Pijp",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45",
+    "22:00",
+    "22:15",
+    "22:30"
+   ],
+   "via": "SevenRooms",
+   "book": "https://www.sevenrooms.com/reservations/izakayaamsterdam"
+  },
+  {
+   "name": "Auberge Jean & Marie",
+   "tag": "Frans · Albert Cuyp",
+   "hood": "De Pijp",
+   "slots": [
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45",
+    "22:00",
+    "22:15",
+    "22:30"
+   ],
+   "via": "website (Guestplan)",
+   "book": "https://www.aubergeamsterdam.nl"
+  },
+  {
+   "name": "Restaurant Blauw",
+   "tag": "Indonesisch · rijsttafel",
+   "hood": "Amstelveenseweg",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00"
+   ],
+   "via": "website (Guestplan)",
+   "book": "https://restaurantblauw.nl"
+  },
+  {
+   "name": "Pllek",
+   "tag": "NDSM · aan het IJ",
+   "hood": "Noord",
+   "slots": [
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45"
+   ],
+   "via": "Zenchef",
+   "book": "https://bookings.zenchef.com/results?rid=374048&pid=1001"
+  }
+ ],
+ "not_available": [
+  {
+   "name": "Café de Klepel",
+   "why": "alleen wachtlijst (17:30–20:30)"
+  },
+  {
+   "name": "Choux",
+   "why": "alleen wachtlijst"
+  },
+  {
+   "name": "RIJKS",
+   "why": "alleen wachtlijst"
+  },
+  {
+   "name": "212",
+   "why": "alleen wachtlijst"
+  },
+  {
+   "name": "Restaurant Europa",
+   "why": "alleen wachtlijst"
+  },
+  {
+   "name": "Kamer (Room Bar)",
+   "why": "alleen wachtlijst"
+  },
+  {
+   "name": "BAK",
+   "why": "dinsdag geen plek; eerstvolgende woensdag 18:30"
+  },
+  {
+   "name": "Lastage",
+   "why": "geen tafel voor 3"
+  },
+  {
+   "name": "4850",
+   "why": "geen tafel voor 3"
+  },
+  {
+   "name": "Café Parlotte",
+   "why": "geen tafel voor 3"
+  },
+  {
+   "name": "Petit Caron",
+   "why": "geen tafel voor 3"
+  },
+  {
+   "name": "Bistrot Neuf",
+   "why": "geen tafel voor 3"
+  },
+  {
+   "name": "Meatless District",
+   "why": "geen tafel voor 3"
+  },
+  {
+   "name": "Hangar",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Café Modern",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Flore",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "House of Noa",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Weinlokal Stern",
+   "why": "dinsdag rustdag"
+  },
+  {
+   "name": "Marocaine",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Coba Taqueria",
+   "why": "alleen do–zo open"
+  },
+  {
+   "name": "Bacalar",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Rondo",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Dame aan de Kade",
+   "why": "ma en di dicht"
+  },
+  {
+   "name": "Lên Đên",
+   "why": "alleen vr en za diner"
+  },
+  {
+   "name": "Sinne",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Tacite",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Le Hollandais",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Bistro de Fles",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Guts & Glory",
+   "why": "definitief gesloten"
+  },
+  {
+   "name": "Bar Alt",
+   "why": "definitief gesloten"
+  },
+  {
+   "name": "Chez Nina",
+   "why": "nu Noof; dinsdag geen plek"
+  },
+  {
+   "name": "Zoldering",
+   "why": "uitverkocht voor 3 (walk-in rond 21:00 kan lukken)"
+  },
+  {
+   "name": "Daalder",
+   "why": "dinsdag dicht (boekt via TheFork)"
+  },
+  {
+   "name": "Balthazar's Keuken",
+   "why": "dinsdag dicht"
+  },
+  {
+   "name": "Bar Parry",
+   "why": "alleen walk-in, vanaf 17:00"
+  },
+  {
+   "name": "Breda",
+   "why": "niet te checken (alleen OpenTable/Resy); bel 020 622 5233"
+  },
+  {
+   "name": "Bar Fisk",
+   "why": "waarschijnlijk gesloten"
+  },
+  {
+   "name": "Bistro Féline",
+   "why": "gesloten; nu Daalder"
+  },
+  {
+   "name": "Marits Eetkamer",
+   "why": "definitief gesloten"
+  },
+  {
+   "name": "Floreyn",
+   "why": "definitief gesloten"
+  },
+  {
+   "name": "Rotisserie Amsterdam",
+   "why": "definitief gesloten"
+  }
+ ]
+}

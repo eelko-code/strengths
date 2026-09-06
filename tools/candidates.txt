@@ -1,0 +1,135 @@
+# Name | website (blank = look up) | tier/notes
+Café de Klepel | https://cafedeklepel.nl | Prinsenstraat, Frans-klassiek bistro, wijn (Tebi)
+Rijsel | https://rijsel.com | Oost, Vlaams-Frans, Bib Gourmand (Tebi)
+Scheepskameel | https://scheepskameel.nl | Kattenburgerstraat, Bib Gourmand, NL wijnen (Tebi)
+BAK | https://bakrestaurant.nl | Houthavens, Time Out #1, fermentatie (Formitable)
+Wilde Zwijnen | https://wildezwijnen.com | Javaplein, seizoensgebonden
+Toscanini | https://www.toscanini.nl | Jordaan, Italiaans (Guestplan)
+Hotel de Goudfazant | zc:367072 | Noord, brasserie in loods
+Café Caron | https://cafecaron.nl | De Pijp, Frans
+Choux | https://www.choux.nl | Centrum, groente-forward (Guestplan)
+Breda | https://restaurantbreda.nl | Singel, verrassingsmenu
+Bar Fisk | https://barfisk.nl | De Pijp, Tel Aviv vis
+Kaagman & Kortekaas | https://kaagmanenkortekaas.nl | Centrum, Frans-NL
+Lastage | https://restaurantlastage.nl | Centrum, Michelin-ster
+Marits Eetkamer | https://maritseetkamer.nl | De Pijp, vegetarisch
+Café Binnenvisser | https://binnenvisser.nl | De Baarsjes, wijnbistro
+Bar Parry | https://barparry.nl | West, wijn & gerechten
+Floreyn | https://floreyn.nl | De Pijp, modern Nederlands
+Bougainville | https://restaurantbougainville.com | Dam, fine dining
+4850 | https://4850.nl | Oost, koffie/wijn/diner
+Ron Gastrobar | https://rongastrobar.nl | Zuid, gastrobar
+Blauw | https://restaurantblauw.nl | Zuid, Indonesisch
+Hangar | https://hangar.amsterdam | Noord, mediterraan
+Pllek | https://pllek.nl | NDSM, aan het IJ
+Daalder | https://daalderamsterdam.nl | Jordaan, Michelin-ster
+Bolenius | https://bolenius-restaurant.nl | Zuidas, groentetuin
+Wolf Atelier | https://wolfatelier.nl | Westerdok, fine dining op brug
+Zoldering | https://zoldering.nl | Zuid, Michelin-ster buurtbistro
+Gebr. Hartering | https://gebr-hartering.nl | Centrum, sharing, Peperstraat
+Rotisserie Amsterdam | https://rotisserieamsterdam.nl | Zuid, rotisserie
+Café Panache | https://cafepanache.nl | West, bistro/cocktails
+Petit Caron | https://petitcaron.nl | De Pijp, Frans
+Bistrot Neuf | https://bistrotneuf.nl | Haarlemmerstraat, Frans
+Le Hollandais | https://lehollandais.nl | Amsteldijk, Frans
+Balthazar's Keuken | https://balthazarskeuken.nl | Jordaan, keukentafel
+Mama Makan | https://mamamakan.com | Plantage, Indonesisch
+Auberge Jean & Marie | https://aubergejeanetmarie.nl | De Pijp, Frans
+Elkaar | https://restaurantelkaar.nl | Oost, chef's table
+Bar Bonnie | https://barbonnie.nl | Zuid, all-day
+Mos | https://mosamsterdam.nl | IJdok, fine dining
+Restaurant As | https://restaurantas.nl | Zuid, houtvuur
+Vinkeles | https://vinkeles.com | Jordaan, 2 sterren
+Spectrum | https://restaurantspectrum.com | Centrum, 2 sterren
+RIJKS | https://rijksrestaurant.nl | Museumplein, ster
+Cradam | https://cradam.nl | Westerpark, brasserie
+Meatless District | https://meatlessdistrict.com | Oud-West, plantaardig
+Café Modern | https://modernamsterdam.nl | Noord, vast menu
+Restaurant Anna | https://restaurantanna.nl | Wallen, fine dining
+De Silveren Spiegel | https://desilverenspiegel.com | Centrum, klassiek NL
+Bussia | https://bussia.nl | Jordaan, Italiaans
+Sinne | https://restaurantsinne.nl | De Pijp, ster
+Bar Bukowski | https://barbukowski.nl | Oost, café-restaurant
+Dauphine | https://caferestaurantdauphine.nl | Oost, brasserie
+Bar Botanique | https://barbotanique.nl | Oost, bar-restaurant
+Bar Spek | https://barspek.nl | West, buurtcafé
+Kanarie Club | https://kanarieclub.nl | De Hallen
+Café de Ceuvel | https://deceuvel.nl | Noord, duurzaam
+Stork | https://restaurantstork.nl | Noord, vis
+Izakaya | https://izakaya-restaurant.com | De Pijp, Japans
+MOMO | https://momo-amsterdam.com | Zuid, Aziatisch
+The Butcher Social Club | https://the-butcher.com | Noord/Zuid
+De Japanner | https://dejapanner.com | De Pijp, izakaya
+Sagardi | https://sagardi.com | Centrum, Baskisch
+Mediamatic ETEN | https://www.mediamatic.net | Dijksgracht, veganistisch
+Indrapura | https://indrapura.nl | Rembrandtplein, Indonesisch
+The Duchess | https://the-duchess.com | Centrum, Italiaans
+Cecconi's | https://www.cecconis.com | Soho House, Italiaans
+Restaurant C | | Wibautstraat
+Gertrude | | Frederik Hendrikstraat
+Bar Alt | | Sarphatistraat
+Bistro Bar Berlage | | Beursplein
+Coba | | Noord, Mexicaans
+Domenica | | Zuid, Italiaans
+Bar Centraal | | West
+Jansz | | Pulitzer
+Pesca | | Rozengracht
+Bacalar | | Noord, Mexicaans
+Klein Berlijn | | Oost
+Arles | | Oost, Frans
+Nela | | Zuidas
+Chez Nina | | West
+Bistro Féline | | Jordaan
+Jacobsz | | Oost
+Graham's Kitchen | | De Pijp
+Flore | | Amstel, 2 sterren
+212 | | Centrum, 2 sterren
+Restaurant Europa | | Noord
+Troef | | Oost, Frans
+Café Parlotte | | Jordaan
+nNea | | Westerpark, pizza
+Barracuda | | Noord, vis
+Gitane | | West, Bib
+Serre | | Okura, Bib
+Tacite | | Zuid
+Amice | | Centrum
+Weinlokal Stern | | Singel
+Bistro de Fles | | Centrum
+Bouillon d'Amsterdam | | De Pijp
+Neo Bistro | | ex-Maris Piper
+House of Noa | | Beurs van Berlage
+Ottolenghi Amsterdam | | Conservatorium
+Chez Chloé | | Overtoom
+Lên Đên | | Houthavens
+Satkara | | Reguliersdwarsstraat
+Xiang | | Centrum, Hunan
+Bar Francois | | Oud-West
+Poldervogel | | Watergraafsmeer
+Dame aan de Kade | | bistro
+Room Bar | | chef-driven
+Rondo | | family style
+Ceintuur Theater | | De Pijp
+Brons | | Noord
+Franzen | | Zuid
+Salut | | Gerard Douplein
+Juno | | Zuid
+Veneur | | Frans
+Yên | | Vietnamees
+Kiseki | | Japans
+Tête | | Oost
+Marocaine | | Jordaan
+Restaurant Meyer | | fine dining
+Alba | | natuurwijn
+Roef | | Oost
+KAIA | | Oud-Zuid, Grieks
+Yuzu Dining Bar | | Kerkstraat
+R21 | | Peperstraat
+Wils | | Stadionplein, ster
+Hatsune | | Zuid, Japans
+Bar Gallizia | | Jordaan
+Locals | | Oost
+Café Kiebert | | Zuid
+Pastis | | Oud-West
+Mr. Porter | | Centrum, steak
+Chez Nina | | West
+Café Restaurant Amsterdam | https://cradam.nl | dup of Cradam
