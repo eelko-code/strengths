@@ -28,6 +28,10 @@ for g in d['groups']:
         wl = fmt_ranges([t for t in p.get('waitlist', []) if t >= '17:00'])
         line = f"{i}. **{p['name']}** ({p['tag']}) — {p['desc']}  \n   {p['addr']} · vrij: {', '.join(slots)}"
         if wl: line += f" · wachtlijst: {', '.join(wl)}"
+        r = p.get('reviews')
+        if r:
+            parts = [x for x in [r.get('michelin'), (f"Gault&Millau {r['gm']}/20" if r.get('gm') else ''), ('Lekker 500' if r.get('lekker') else ''), (f"Google {r['google']}" if r.get('google') else ''), (f"Tripadvisor {r['ta']}" if r.get('ta') else ''), r.get('press')] if x]
+            line += "  \n   Reviews: " + " · ".join(parts)
         if p.get('note'): line += f"  \n   {p['note']}"
         line += f"  \n   Reserveer via {p['via']}: {p['book']}"
         if p.get('site') and p['site'] != p['book']: line += f" · website: {p['site']}"

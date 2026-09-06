@@ -29,7 +29,16 @@
      "note": "Aanbetaling/garantie €25 p.p. bij online reserveren.",
      "via": "Zenchef",
      "book": "https://bookings.zenchef.com/results?rid=387651&pid=1001",
-     "site": "https://kaagmanenkortekaas.nl"
+     "site": "https://kaagmanenkortekaas.nl",
+     "reviews": {
+      "google": "4,5 (653)",
+      "ta": "4,4 (308)",
+      "michelin": "Michelin-selectie",
+      "gm": "15",
+      "lekker": true,
+      "press": "Volkskrant: 'dichtbij perfectie'",
+      "tier": 1
+     }
     },
     {
      "name": "Caffè Toscanini",
@@ -51,7 +60,16 @@
      "note": "18:00 is de enige vroege optie, daarna pas vanaf 20:30; daartussen alleen wachtlijst.",
      "via": "Formitable (website)",
      "book": "https://restauranttoscanini.nl",
-     "site": "https://restauranttoscanini.nl"
+     "site": "https://restauranttoscanini.nl",
+     "reviews": {
+      "google": "4,4 (1.302)",
+      "ta": "4,0 (616)",
+      "michelin": "",
+      "gm": "14,5",
+      "lekker": true,
+      "press": "Eet.nu 8,2; beste Italiaan van NL 2022",
+      "tier": 2
+     }
     },
     {
      "name": "Domenica",
@@ -80,7 +98,16 @@
      "note": "Aanbetaling €20 p.p. Kies 'Restaurant' (niet Bar of Terrace).",
      "via": "Tebi (website)",
      "book": "https://www.restaurantdomenica.com",
-     "site": "https://www.restaurantdomenica.com"
+     "site": "https://www.restaurantdomenica.com",
+     "reviews": {
+      "google": "4,2 (609)",
+      "ta": "3,8",
+      "michelin": "Michelin-selectie",
+      "gm": "14",
+      "lekker": false,
+      "press": "TheFork 8,9",
+      "tier": 3
+     }
     },
     {
      "name": "Gebr. Hartering",
@@ -107,7 +134,16 @@
      "note": "Aanbetaling €25 p.p. Kies begane grond of souterrain.",
      "via": "Tebi (website)",
      "book": "https://gebr-hartering.nl",
-     "site": "https://gebr-hartering.nl"
+     "site": "https://gebr-hartering.nl",
+     "reviews": {
+      "google": "4,6 (538)",
+      "ta": "4,4 (342)",
+      "michelin": "Michelin-selectie",
+      "gm": "15",
+      "lekker": false,
+      "press": "Parool Proefwerk 8,5",
+      "tier": 1
+     }
     },
     {
      "name": "Wolf Atelier",
@@ -127,12 +163,21 @@
      "note": "Aanbetaling €30 p.p. Tijden per half uur; kies de service 'Diner'.",
      "via": "Tebi (website)",
      "book": "https://wolfatelier.nl",
-     "site": "https://wolfatelier.nl"
+     "site": "https://wolfatelier.nl",
+     "reviews": {
+      "google": "4,7 (1.422)",
+      "ta": "4,4 (732, #112 van A'dam)",
+      "michelin": "Michelin-selectie",
+      "gm": "14",
+      "lekker": true,
+      "press": "Restaurant Week 9,3",
+      "tier": 1
+     }
     },
     {
      "name": "Scheepskameel",
-     "tag": "Bib Gourmand · Nederlandse wijn",
-     "desc": "Puur en precies koken in een loods op Kattenburg, met uitsluitend Nederlandse wijnen op de kaart.",
+     "tag": "Bib Gourmand · Duitse wijn",
+     "desc": "Puur en precies koken in een loods op Kattenburg, van de makers van Rijsel, met een wijnkaart die volledig Duits is.",
      "addr": "Kattenburgerstraat 5, gebouw 24a",
      "slots": [
       "18:00",
@@ -149,7 +194,16 @@
      "note": "Aanbetaling €35 p.p. via de widget.",
      "via": "Tebi (website)",
      "book": "https://scheepskameel.nl",
-     "site": "https://scheepskameel.nl"
+     "site": "https://scheepskameel.nl",
+     "reviews": {
+      "google": "4,6 (889)",
+      "ta": "4,4 (225)",
+      "michelin": "Bib Gourmand",
+      "gm": "14",
+      "lekker": true,
+      "press": "Eet.nu 8,9; Parool 9-",
+      "tier": 1
+     }
     }
    ]
   },
@@ -181,7 +235,16 @@
      "note": "Kies bij het boeken 'Diner – Binnen' of 'Bar'. Tussen 18:30 en 19:45 geen tafel voor drie.",
      "via": "Zenchef",
      "book": "https://bookings.zenchef.com/results?rid=387704&pid=1001",
-     "site": "https://restaurantgitane.nl"
+     "site": "https://restaurantgitane.nl",
+     "reviews": {
+      "google": "4,4 (1.089)",
+      "ta": "3,6 (13)",
+      "michelin": "Bib Gourmand",
+      "gm": "",
+      "lekker": false,
+      "press": "EatStreet 8,2",
+      "tier": 2
+     }
     },
     {
      "name": "Bar Centraal",
@@ -201,7 +264,16 @@
      "note": "Doordeweeks geen aanbetaling; kies 'Dinner reservation weekdays'. Tijden per half uur.",
      "via": "Tebi (website)",
      "book": "https://barcentraal.nl",
-     "site": "https://barcentraal.nl"
+     "site": "https://barcentraal.nl",
+     "reviews": {
+      "google": "4,4 (531)",
+      "ta": "4,1 (46)",
+      "michelin": "",
+      "gm": "13,5",
+      "lekker": false,
+      "press": "Star Wine List",
+      "tier": 2
+     }
     },
     {
      "name": "Café Binnenvisser",
@@ -227,7 +299,16 @@
      "note": "",
      "via": "Tebi (website)",
      "book": "https://binnenvisser.nl",
-     "site": "https://binnenvisser.nl"
+     "site": "https://binnenvisser.nl",
+     "reviews": {
+      "google": "4,3 (669)",
+      "ta": "3,3 (47)",
+      "michelin": "",
+      "gm": "12",
+      "lekker": false,
+      "press": "",
+      "tier": 3
+     }
     },
     {
      "name": "nNea Pizza",
@@ -247,7 +328,16 @@
      "note": "Aanbetaling €10 p.p. Vroeg om 17:30 of pas vanaf 20:30.",
      "via": "Tebi (website)",
      "book": "https://www.nneapizza.com",
-     "site": "https://www.nneapizza.com"
+     "site": "https://www.nneapizza.com",
+     "reviews": {
+      "google": "4,6 (4.342)",
+      "ta": "4,0 (150)",
+      "michelin": "",
+      "gm": "",
+      "lekker": false,
+      "press": "50 Top Pizza Europa #7 (2026); Time Out #16",
+      "tier": 1
+     }
     }
    ]
   },
@@ -283,7 +373,16 @@
      "note": "Aanbetaling €20 p.p. Kies 'Diner Reservering Restaurant' (of Bar).",
      "via": "Tebi (website)",
      "book": "https://cafecaron.nl",
-     "site": "https://cafecaron.nl"
+     "site": "https://cafecaron.nl",
+     "reviews": {
+      "google": "4,6 (865)",
+      "ta": "4,0 (132)",
+      "michelin": "Michelin-selectie",
+      "gm": "14",
+      "lekker": true,
+      "press": "",
+      "tier": 2
+     }
     },
     {
      "name": "Arles",
@@ -311,7 +410,16 @@
      "note": "Garantie/aanbetaling €20 p.p. bij online reserveren.",
      "via": "Zenchef",
      "book": "https://bookings.zenchef.com/results?rid=382936&pid=1001",
-     "site": "https://arles-amsterdam.nl"
+     "site": "https://arles-amsterdam.nl",
+     "reviews": {
+      "google": "",
+      "ta": "4,4 (91)",
+      "michelin": "Michelin-selectie (Bib Gourmand 2018–2021)",
+      "gm": "13,5",
+      "lekker": false,
+      "press": "TheFork 9,3 (307)",
+      "tier": 2
+     }
     },
     {
      "name": "Salut",
@@ -341,7 +449,16 @@
      "note": "Bij het boeken een menu-optie kiezen (à la carte kan ook).",
      "via": "Zenchef",
      "book": "https://bookings.zenchef.com/results?rid=379445&pid=1001",
-     "site": "https://salut-official.com"
+     "site": "https://salut-official.com",
+     "reviews": {
+      "google": "",
+      "ta": "nog maar 5 reviews",
+      "michelin": "",
+      "gm": "",
+      "lekker": false,
+      "press": "nieuw (2025), alleen blogs",
+      "tier": 4
+     }
     },
     {
      "name": "Restaurant Wils",
@@ -362,7 +479,16 @@
      "note": "Beperkte tijden, dus snel zijn.",
      "via": "Guestplan (website)",
      "book": "https://www.restaurantwils.nl/reserveringen",
-     "site": "https://www.restaurantwils.nl"
+     "site": "https://www.restaurantwils.nl",
+     "reviews": {
+      "google": "4,5 (371)",
+      "ta": "4,0 (68)",
+      "michelin": "1 Michelin-ster",
+      "gm": "15",
+      "lekker": true,
+      "press": "Bijdendijk G&M Chef van het Jaar 2025",
+      "tier": 1
+     }
     },
     {
      "name": "Ottolenghi Amsterdam",
@@ -378,7 +504,16 @@
      "note": "Diner alleen om 17:30, 18:00 of 20:00.",
      "via": "SevenRooms",
      "book": "https://www.sevenrooms.com/reservations/ottolenghimoams",
-     "site": "https://www.mandarinoriental.com/en/amsterdam/conservatorium/dine/ottolenghi"
+     "site": "https://www.mandarinoriental.com/en/amsterdam/conservatorium/dine/ottolenghi",
+     "reviews": {
+      "google": "",
+      "ta": "3,5",
+      "michelin": "",
+      "gm": "",
+      "lekker": false,
+      "press": "nieuw (maart 2026), verdeelde eerste reviews",
+      "tier": 4
+     }
     }
    ]
   },
@@ -405,7 +540,16 @@
      "note": "Aanbetaling €35 p.p. Om 18:00 of vanaf 20:00; 18:30–19:30 alleen wachtlijst.",
      "via": "Tebi (website)",
      "book": "https://rijsel.com",
-     "site": "https://rijsel.com"
+     "site": "https://rijsel.com",
+     "reviews": {
+      "google": "4,6 (660)",
+      "ta": "4,5 (296)",
+      "michelin": "Bib Gourmand",
+      "gm": "14,5",
+      "lekker": true,
+      "press": "Eet.nu 8,7",
+      "tier": 1
+     }
     },
     {
      "name": "Troef",
@@ -435,7 +579,16 @@
      "note": "",
      "via": "Formitable (website)",
      "book": "https://troefamsterdam.nl",
-     "site": "https://troefamsterdam.nl"
+     "site": "https://troefamsterdam.nl",
+     "reviews": {
+      "google": "4,6 (417)",
+      "ta": "4,1 (24)",
+      "michelin": "Michelin-selectie",
+      "gm": "14,5",
+      "lekker": true,
+      "press": "G&M Bistronomie van het Jaar 2024; Time Out top 10",
+      "tier": 1
+     }
     },
     {
      "name": "Wilde Zwijnen",
@@ -464,7 +617,16 @@
      "note": "Boeken via wildezwijnenwinkel.nl (de oude domeinnaam is verlopen); geen aanbetaling vooraf.",
      "via": "Tebi (website)",
      "book": "https://www.wildezwijnenwinkel.nl",
-     "site": "https://www.wildezwijnenwinkel.nl"
+     "site": "https://www.wildezwijnenwinkel.nl",
+     "reviews": {
+      "google": "4,4 (1.382)",
+      "ta": "4,5 (592, #250)",
+      "michelin": "",
+      "gm": "12,5",
+      "lekker": false,
+      "press": "Eet.nu 7,6",
+      "tier": 3
+     }
     }
    ]
   },
@@ -492,7 +654,16 @@
      "note": "",
      "via": "Zenchef",
      "book": "https://bookings.zenchef.com/results?rid=367072&pid=1001",
-     "site": "https://hoteldegoudfazant.nl"
+     "site": "https://hoteldegoudfazant.nl",
+     "reviews": {
+      "google": "4,3 (1.300)",
+      "ta": "4,3 (550)",
+      "michelin": "",
+      "gm": "12,5",
+      "lekker": false,
+      "press": "Time Out 5/5; Eet.nu 7,6",
+      "tier": 3
+     }
     },
     {
      "name": "Barracuda",
@@ -514,7 +685,16 @@
      "note": "",
      "via": "Tebi (website)",
      "book": "https://www.barracuda.amsterdam",
-     "site": "https://www.barracuda.amsterdam"
+     "site": "https://www.barracuda.amsterdam",
+     "reviews": {
+      "google": "4,5 (1.019)",
+      "ta": "26 reviews",
+      "michelin": "",
+      "gm": "12",
+      "lekker": false,
+      "press": "Parool 9/10, beste nieuwkomer 2023",
+      "tier": 2
+     }
     }
    ]
   }

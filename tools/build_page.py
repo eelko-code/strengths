@@ -21,6 +21,17 @@ def main():
         return [f"{a}–{b}" if a != b else a for a, b in ranges(slots)]
     
     def esc(x): return html.escape(str(x), quote=True)
+    def review_line(p):
+        r = p.get('reviews')
+        if not r: return ''
+        parts = []
+        if r.get('michelin'): parts.append(r['michelin'])
+        if r.get('gm'): parts.append(f"Gault&Millau {r['gm']}/20")
+        if r.get('lekker'): parts.append("Lekker 500")
+        if r.get('google'): parts.append(f"Google {r['google']}")
+        if r.get('ta'): parts.append(f"Tripadvisor {r['ta']}")
+        if r.get('press'): parts.append(r['press'])
+        return '<p class="rev"><span class="lbl">Reviews</span>' + ' · '.join(esc(x) for x in parts) + '</p>'
     
     def row(p, i):
         slots = [t for t in p['slots'] if t >= '17:00']
@@ -37,6 +48,7 @@ def main():
         <h3><span class="name">{esc(p["name"])}</span> <span class="tag">{esc(p["tag"])}</span></h3>
         <p class="desc">{esc(p["desc"])}</p>
         <p class="addr">{esc(p["addr"])}</p>
+    {review_line(p)}
         <div class="slots"><span class="lbl">Vrij voor 3</span>{chips}</div>
         {note}
         <div class="actions">{links}</div>
@@ -93,7 +105,9 @@ def main():
     .r h3{{font-family:var(--display);font-variation-settings:"wdth" 75;font-weight:800;font-size:1.65rem;line-height:1.05;margin:0 0 .35rem;letter-spacing:-.005em}}
     .r h3 .tag{{font-family:var(--mono);font-weight:500;font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-2);vertical-align:.45em;margin-left:.4rem;white-space:nowrap}}
     .desc{{margin:0 0 .3rem;max-width:40rem}}
-    .addr{{font-family:var(--mono);font-size:.8rem;color:var(--muted);margin:0 0 .7rem}}
+    .addr{{font-family:var(--mono);font-size:.8rem;color:var(--muted);margin:0 0 .5rem}}
+.rev{{font-family:var(--mono);font-size:.78rem;color:var(--ink-2);margin:0 0 .7rem;line-height:1.6}}
+.rev .lbl{{margin-right:.35rem}}
     .slots{{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem}}
     .lbl{{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-right:.2rem}}
     .chip{{font-family:var(--mono);font-size:.84rem;font-variant-numeric:tabular-nums;padding:.18rem .55rem;border-radius:3px;border:1px solid transparent;white-space:nowrap}}
