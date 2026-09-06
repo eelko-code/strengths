@@ -1,7 +1,7 @@
 {
  "checked": "zondag 6 september, tussen 18:45 en 19:30 uur",
  "lede": "Twintig restaurants waar je <strong>dinsdag 8 september</strong> nog een tafel voor drie kunt boeken, gerangschikt op hoe tof ze zijn. Tijden zijn live uit de reserveringssystemen gehaald; de populairste zaken lopen snel vol, dus boek vandaag.",
- "how": "Op zondagavond 6 september zijn de reserveringssystemen van ruim 140 Amsterdamse restaurants rechtstreeks bevraagd (Zenchef, Tebi, Formitable, Guestplan en SevenRooms) op een tafel voor 3 personen op dinsdag 8 september. De tijden gelden op het moment van checken. Zaken die alleen via TheFork, OpenTable of Resy boeken (onder meer Daalder, Breda en Satkara) konden niet gecheckt worden; bel die desnoods even.",
+ "how": "Op zondagavond 6 september zijn de reserveringssystemen van ruim 140 Amsterdamse restaurants rechtstreeks bevraagd (Zenchef, Tebi, Formitable, Guestplan en SevenRooms) op een tafel voor 3 personen op dinsdag 8 september. De tijden gelden op het moment van checken. Zaken die alleen via TheFork, OpenTable, Resy, CoverManager, Frank of SeatMe boeken (onder meer Daalder, Breda, Satkara, Spectrum en Cecconi's) konden niet gecheckt worden; bel die desnoods even.",
  "groups": [
   {
    "name": "Centrum & Jordaan",
@@ -1261,6 +1261,38 @@
    ],
    "via": "Zenchef",
    "book": "https://bookings.zenchef.com/results?rid=374048&pid=1001"
+  },
+  {
+   "name": "The Butcher Social Club",
+   "tag": "burgers · 24/7-vibe",
+   "hood": "Overhoeks, Noord",
+   "slots": [
+    "17:00",
+    "17:15",
+    "17:30",
+    "17:45",
+    "18:00",
+    "18:15",
+    "18:30",
+    "18:45",
+    "19:00",
+    "19:15",
+    "19:30",
+    "19:45",
+    "20:00",
+    "20:15",
+    "20:30",
+    "20:45",
+    "21:00",
+    "21:15",
+    "21:30",
+    "21:45",
+    "22:00",
+    "22:15",
+    "22:30"
+   ],
+   "via": "SevenRooms",
+   "book": "https://www.sevenrooms.com/reservations/thebutchersocialclub"
   }
  ],
  "not_available": [
@@ -1427,6 +1459,34 @@
   {
    "name": "Rotisserie Amsterdam",
    "why": "definitief gesloten"
+  },
+  {
+   "name": "Pesca",
+   "why": "diner alleen wachtlijst; wel vrij om 17:00–17:45"
+  },
+  {
+   "name": "Elkaar",
+   "why": "definitief gesloten"
+  },
+  {
+   "name": "Jacobsz",
+   "why": "definitief gesloten"
+  },
+  {
+   "name": "Mediamatic ETEN (TestTafel)",
+   "why": "alleen wo–za open"
+  },
+  {
+   "name": "Vinkeles",
+   "why": "alleen telefonisch, 020 530 2010"
+  },
+  {
+   "name": "Stork",
+   "why": "site niet bereikbaar; bel 020 634 4000"
+  },
+  {
+   "name": "Spectrum, Cecconi's, Sagardi, De Silveren Spiegel, Bar Spek",
+   "why": "niet te checken (Resy, OpenTable, CoverManager, Frank, SeatMe)"
   }
  ]
 }

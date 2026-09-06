@@ -1,6 +1,6 @@
 # Twintig tafels op dinsdag — Amsterdam, dinsdag 8 september 2026, 3 personen
 
-Beschikbaarheid live gecheckt op zondag 6 september, tussen 18:45 en 19:30 uur. Op zondagavond 6 september zijn de reserveringssystemen van ruim 140 Amsterdamse restaurants rechtstreeks bevraagd (Zenchef, Tebi, Formitable, Guestplan en SevenRooms) op een tafel voor 3 personen op dinsdag 8 september. De tijden gelden op het moment van checken. Zaken die alleen via TheFork, OpenTable of Resy boeken (onder meer Daalder, Breda en Satkara) konden niet gecheckt worden; bel die desnoods even.
+Beschikbaarheid live gecheckt op zondag 6 september, tussen 18:45 en 19:30 uur. Op zondagavond 6 september zijn de reserveringssystemen van ruim 140 Amsterdamse restaurants rechtstreeks bevraagd (Zenchef, Tebi, Formitable, Guestplan en SevenRooms) op een tafel voor 3 personen op dinsdag 8 september. De tijden gelden op het moment van checken. Zaken die alleen via TheFork, OpenTable, Resy, CoverManager, Frank of SeatMe boeken (onder meer Daalder, Breda, Satkara, Spectrum en Cecconi's) konden niet gecheckt worden; bel die desnoods even.
 
 Legenda: **vrij** = direct online te boeken voor 3; *wachtlijst* = alleen wachtlijst.
 
@@ -132,6 +132,7 @@ Legenda: **vrij** = direct online te boeken voor 3; *wachtlijst* = alleen wachtl
 | Auberge Jean & Marie (Frans · Albert Cuyp) | De Pijp | 17:30–22:30 | [website (Guestplan)](https://www.aubergeamsterdam.nl) |
 | Restaurant Blauw (Indonesisch · rijsttafel) | Amstelveenseweg | 17:00–18:00, 20:00–21:00 | [website (Guestplan)](https://restaurantblauw.nl) |
 | Pllek (NDSM · aan het IJ) | Noord | 17:15–21:45 | [Zenchef](https://bookings.zenchef.com/results?rid=374048&pid=1001) |
+| The Butcher Social Club (burgers · 24/7-vibe) | Overhoeks, Noord | 17:00–22:30 | [SevenRooms](https://www.sevenrooms.com/reservations/thebutchersocialclub) |
 
 ## Niet gelukt op dinsdag
 
@@ -176,3 +177,10 @@ Legenda: **vrij** = direct online te boeken voor 3; *wachtlijst* = alleen wachtl
 - **Marits Eetkamer** — definitief gesloten
 - **Floreyn** — definitief gesloten
 - **Rotisserie Amsterdam** — definitief gesloten
+- **Pesca** — diner alleen wachtlijst; wel vrij om 17:00–17:45
+- **Elkaar** — definitief gesloten
+- **Jacobsz** — definitief gesloten
+- **Mediamatic ETEN (TestTafel)** — alleen wo–za open
+- **Vinkeles** — alleen telefonisch, 020 530 2010
+- **Stork** — site niet bereikbaar; bel 020 634 4000
+- **Spectrum, Cecconi's, Sagardi, De Silveren Spiegel, Bar Spek** — niet te checken (Resy, OpenTable, CoverManager, Frank, SeatMe)
