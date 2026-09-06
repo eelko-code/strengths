@@ -40,7 +40,7 @@ Legenda: **vrij** = direct online te boeken voor 3; *wachtlijst* = alleen wachtl
    Reserveer via Zenchef: https://bookings.zenchef.com/results?rid=387704&pid=1001 · website: https://restaurantgitane.nl
 8. **Bar Centraal** (kleine gerechten · natuurwijn) — Klein, luidruchtig en lekker: wisselende kleine gerechten en natuurwijn aan de Ten Katestraat.  
    Ten Katestraat 16 · vrij: 17:30–20:30  
-   Tijden per half uur; bij sommige opties €10 aanbetaling.  
+   Doordeweeks geen aanbetaling; kies 'Dinner reservation weekdays'. Tijden per half uur.  
    Reserveer via Tebi (website): https://barcentraal.nl
 9. **Café Binnenvisser** (wijnbistro) — Wijnbistro in De Baarsjes met een keuken die veel beter is dan het café-uiterlijk doet vermoeden.  
    Bilderdijkstraat 36 · vrij: 18:00–21:00  
@@ -84,7 +84,7 @@ Legenda: **vrij** = direct online te boeken voor 3; *wachtlijst* = alleen wachtl
    Reserveer via Formitable (website): https://troefamsterdam.nl
 18. **Wilde Zwijnen** (seizoen · Javaplein) — Het restaurant dat de Indische Buurt op de kaart zette: dagelijks wisselend, eerlijk seizoenskoken; op dinsdag ook à la carte naast het 3-, 4- of 5-gangenmenu.  
    Javaplein 23a · vrij: 18:00–19:45, 20:15–21:30 · wachtlijst: 20:00  
-   Aanbetaling €10 p.p. Boeken via wildezwijnenwinkel.nl (de oude domeinnaam is verlopen).  
+   Boeken via wildezwijnenwinkel.nl (de oude domeinnaam is verlopen); geen aanbetaling vooraf.  
    Reserveer via Tebi (website): https://www.wildezwijnenwinkel.nl
 
 ## Noord — Hamerkwartier, vijf minuten met de pont

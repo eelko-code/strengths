@@ -198,7 +198,7 @@
       "20:30"
      ],
      "waitlist": [],
-     "note": "Tijden per half uur; bij sommige opties €10 aanbetaling.",
+     "note": "Doordeweeks geen aanbetaling; kies 'Dinner reservation weekdays'. Tijden per half uur.",
      "via": "Tebi (website)",
      "book": "https://barcentraal.nl",
      "site": "https://barcentraal.nl"
@@ -461,7 +461,7 @@
      "waitlist": [
       "20:00"
      ],
-     "note": "Aanbetaling €10 p.p. Boeken via wildezwijnenwinkel.nl (de oude domeinnaam is verlopen).",
+     "note": "Boeken via wildezwijnenwinkel.nl (de oude domeinnaam is verlopen); geen aanbetaling vooraf.",
      "via": "Tebi (website)",
      "book": "https://www.wildezwijnenwinkel.nl",
      "site": "https://www.wildezwijnenwinkel.nl"
